@@ -1,9 +1,7 @@
-list=["a","b","c","d","e","A","B","C","D","E"]
-x=raw_input("")
-print(x)
-
-if (x in list):
+list=["a","e","i","o","u","A","E","I","O","U"]
+n=input("")
+if (n in list):
     print (" Vowel")
 
 else:
-    print ("consonant")
+    print ("Consonant")
